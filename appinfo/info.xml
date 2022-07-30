@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>integration_google_encryption</id>
+	<name>Google integration encryption</name>
+	<summary>Help inspect Nextcloud code</summary>
+	<description>Help inspect Nextcloud code</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author>Andrew Summers</author>
+	<namespace>GoogleEncryption</namespace>
+
+	<category>tools</category>
+
+	<dependencies>
+		<nextcloud min-version="20" max-version="30" />
+	</dependencies>
+	<settings>
+		<personal>OCA\GoogleEncryption\Settings\Personal</personal>
+	</settings>
+</info>
